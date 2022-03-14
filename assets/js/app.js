@@ -1,8 +1,18 @@
 const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
+const tabs = $$('.nav__mobile-link')
 const category_menu = $('.header-category-left')
 const category_drop = $('.header-category-left-dropdown')
+
+
+tabs.forEach((tabs) => {
+        tabs.onclick = () => {
+            $('.nav__mobile-link.active').classList.remove('active')
+            tabs.classList.add('active')  
+        
+        }
+    })
 
 // Slider
 var couter = 1
