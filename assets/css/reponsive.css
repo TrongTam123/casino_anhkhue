@@ -119,7 +119,8 @@
     }
 
     .brand-box_link img {
-        height: 178px;
+        width: 100%;
+        height: auto;
     }
 
     .advertisement-title {
@@ -132,6 +133,14 @@
 
     .product-heading {
         font-size: 2.5rem;
+    }
+
+    .registration-right input {
+        width: 274px;
+    }
+
+    .registration-right button {
+        font-size: 2rem;
     }
 
     .footer-logo {
