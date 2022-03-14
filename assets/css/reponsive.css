@@ -1,0 +1,159 @@
+/* Mobile & Tablet*/
+@media (max-width: 1023px) {
+   .hide-on-mobile-tablet {
+        display: none;
+    } 
+
+    .nav__bars-btn {
+        display: block;
+    }
+
+    .header-nav-container {
+        text-align: center;
+        display: block;
+    }
+
+    .header-nav-right {
+        justify-content: center;
+    }
+    .header-search-right {
+        flex: 0;
+    }
+    .header-search-left {
+        margin-left: 100px;
+    }
+
+    .header-search-left_img img {
+        height: 35px;
+    }
+
+    .dictum-right {
+        font-size: 1.2rem;
+    }
+
+    .introduce-box {
+        left: 21%;
+    }
+
+    .introduce-box span {
+        font-size: 1.3rem;
+    }
+
+    
+    .advertisement-right img {
+        clip-path: none;
+        width: 100%;
+    }
+
+    .brand-box {
+        margin-top: 20px;
+    }
+
+    .advertisement-title::after {
+        width: 220%;
+    }
+    .advertisement-top-btn {
+        display: block;
+    }
+
+    .advertisement-right {
+        margin-top: 20px;
+    }
+    .news-top img {
+        height: 179px;
+    }
+
+    .news-box-title {
+        font-size: 1.9rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    } 
+
+    .advertisement-right-box {
+        right: 35%;
+    }
+
+    .registration-right input {
+        width: 125px;
+        font-size: 1.2rem;
+    }
+    
+    .registration-right button {
+        font-size: 1.3rem;
+        padding: 6px;
+    }
+    .footer-bottm-right p {
+        flex-basis: 10%;
+        font-size: 1.2rem;
+    }
+    .footer-logo img {
+        width: 150px;
+        height: 50px;
+    }
+}
+
+/* Mobile*/
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    } 
+    .header-search-left {
+        margin-left: 0;
+        text-align: center;
+    }
+    .nav {
+    margin-right: 40px;
+    }
+
+    .header-search-right {
+        margin-left: -41px;
+    }
+
+    .advertisement-title::after {
+        width: 100%;
+    }
+
+    .brand-box_link img {
+        height: 178px;
+    }
+
+    .advertisement-title {
+        font-size: 3rem;
+    }
+
+    .introduce-box {
+        left: 38%;
+    }
+
+    .product-heading {
+        font-size: 2.5rem;
+    }
+
+    .footer-logo {
+        flex-direction: row;
+    }
+
+    .footer-logo img {
+        width: 170px;
+    }
+
+    .footer-logo img:first-child {
+        margin-right: 15px;
+    }
+
+    .footer-bottm-right {
+        flex-direction: column;
+    }
+    .footer-nav {
+        flex-direction: column;
+    }
+    
+    .footer-nav-right {
+        margin-top: 15px;
+    }
+}
