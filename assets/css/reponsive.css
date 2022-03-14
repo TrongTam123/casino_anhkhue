@@ -114,6 +114,11 @@
         margin-left: -41px;
     }
 
+    
+    .dictum-left img {
+        width: 100px;
+    }
+    
     .advertisement-title::after {
         width: 100%;
     }
